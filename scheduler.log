@@ -1,0 +1,169 @@
+primeiro teste do agendador basico.primeiro teste do agendador basico.primeiro teste do agendador basico.primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. 
+  [41;1m ErrorException [49;22m
+
+[39;1m  Undefined offset: 0[39;22m
+
+  at [32mC:\laragon\www\swagger-api\vendor\laravel\framework\src\Illuminate\Collections\Collection.php[39m:[32m1641[39m
+    [90m1637[0m[90m▕ [0m[90;3m     */[0m
+    [90m1638[0m[90m▕ [0m[90;3m    #[\ReturnTypeWillChange][0m
+    [90m1639[0m[90m▕ [0m[90;3m    [0m[35;1mpublic function [0m[39;1moffsetGet[0m[35;1m([0m[39;1m$key[0m[35;1m)[0m
+    [90m1640[0m[90m▕ [0m[35;1m    {[0m
+[31;1m  ➜ [0m[3;1m1641[0m[90m▕ [0m[35;1m        return [0m[39;1m$this[0m[35;1m->[0m[39;1mitems[0m[35;1m[[0m[39;1m$key[0m[35;1m];[0m
+    [90m1642[0m[90m▕ [0m[35;1m    }[0m
+    [90m1643[0m[90m▕ [0m
+    [90m1644[0m[90m▕ [0m[35;1m    [0m[90;3m/**[0m
+    [90m1645[0m[90m▕ [0m[90;3m     * Set the item at a given offset.[0m
+
+  [33m1   [39m[39;1mC:\laragon\www\swagger-api\vendor\laravel\framework\src\Illuminate\Collections\Collection.php[39;22m:[39;1m1641[39;22m
+  [37m    Illuminate\Foundation\Bootstrap\HandleExceptions::handleError("Undefined offset: 0", "C:\laragon\www\swagger-api\vendor\laravel\framework\src\Illuminate\Collections\Collection.php", [])[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\swagger-api\app\Http\Controllers\SwaggerAPIController.php[39;22m:[39;1m16[39;22m
+  [37m    Illuminate\Support\Collection::offsetGet()[39m
+
+  [41;1m ErrorException [49;22m
+
+[39;1m  Undefined offset: 0[39;22m
+
+  at [32mC:\laragon\www\swagger-api\vendor\laravel\framework\src\Illuminate\Collections\Collection.php[39m:[32m1641[39m
+    [90m1637[0m[90m▕ [0m[90;3m     */[0m
+    [90m1638[0m[90m▕ [0m[90;3m    #[\ReturnTypeWillChange][0m
+    [90m1639[0m[90m▕ [0m[90;3m    [0m[35;1mpublic function [0m[39;1moffsetGet[0m[35;1m([0m[39;1m$key[0m[35;1m)[0m
+    [90m1640[0m[90m▕ [0m[35;1m    {[0m
+[31;1m  ➜ [0m[3;1m1641[0m[90m▕ [0m[35;1m        return [0m[39;1m$this[0m[35;1m->[0m[39;1mitems[0m[35;1m[[0m[39;1m$key[0m[35;1m];[0m
+    [90m1642[0m[90m▕ [0m[35;1m    }[0m
+    [90m1643[0m[90m▕ [0m
+    [90m1644[0m[90m▕ [0m[35;1m    [0m[90;3m/**[0m
+    [90m1645[0m[90m▕ [0m[90;3m     * Set the item at a given offset.[0m
+
+  [33m1   [39m[39;1mC:\laragon\www\swagger-api\vendor\laravel\framework\src\Illuminate\Collections\Collection.php[39;22m:[39;1m1641[39;22m
+  [37m    Illuminate\Foundation\Bootstrap\HandleExceptions::handleError("Undefined offset: 0", "C:\laragon\www\swagger-api\vendor\laravel\framework\src\Illuminate\Collections\Collection.php", [])[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\swagger-api\app\Http\Controllers\SwaggerAPIController.php[39;22m:[39;1m16[39;22m
+  [37m    Illuminate\Support\Collection::offsetGet()[39m
+
+  [41;1m ErrorException [49;22m
+
+[39;1m  Undefined offset: 0[39;22m
+
+  at [32mC:\laragon\www\swagger-api\vendor\laravel\framework\src\Illuminate\Collections\Collection.php[39m:[32m1641[39m
+    [90m1637[0m[90m▕ [0m[90;3m     */[0m
+    [90m1638[0m[90m▕ [0m[90;3m    #[\ReturnTypeWillChange][0m
+    [90m1639[0m[90m▕ [0m[90;3m    [0m[35;1mpublic function [0m[39;1moffsetGet[0m[35;1m([0m[39;1m$key[0m[35;1m)[0m
+    [90m1640[0m[90m▕ [0m[35;1m    {[0m
+[31;1m  ➜ [0m[3;1m1641[0m[90m▕ [0m[35;1m        return [0m[39;1m$this[0m[35;1m->[0m[39;1mitems[0m[35;1m[[0m[39;1m$key[0m[35;1m];[0m
+    [90m1642[0m[90m▕ [0m[35;1m    }[0m
+    [90m1643[0m[90m▕ [0m
+    [90m1644[0m[90m▕ [0m[35;1m    [0m[90;3m/**[0m
+    [90m1645[0m[90m▕ [0m[90;3m     * Set the item at a given offset.[0m
+
+  [33m1   [39m[39;1mC:\laragon\www\swagger-api\vendor\laravel\framework\src\Illuminate\Collections\Collection.php[39;22m:[39;1m1641[39;22m
+  [37m    Illuminate\Foundation\Bootstrap\HandleExceptions::handleError("Undefined offset: 0", "C:\laragon\www\swagger-api\vendor\laravel\framework\src\Illuminate\Collections\Collection.php", [])[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\swagger-api\app\Http\Controllers\SwaggerAPIController.php[39;22m:[39;1m16[39;22m
+  [37m    Illuminate\Support\Collection::offsetGet()[39m
+
+  [41;1m ErrorException [49;22m
+
+[39;1m  Undefined offset: 0[39;22m
+
+  at [32mC:\laragon\www\swagger-api\vendor\laravel\framework\src\Illuminate\Collections\Collection.php[39m:[32m1641[39m
+    [90m1637[0m[90m▕ [0m[90;3m     */[0m
+    [90m1638[0m[90m▕ [0m[90;3m    #[\ReturnTypeWillChange][0m
+    [90m1639[0m[90m▕ [0m[90;3m    [0m[35;1mpublic function [0m[39;1moffsetGet[0m[35;1m([0m[39;1m$key[0m[35;1m)[0m
+    [90m1640[0m[90m▕ [0m[35;1m    {[0m
+[31;1m  ➜ [0m[3;1m1641[0m[90m▕ [0m[35;1m        return [0m[39;1m$this[0m[35;1m->[0m[39;1mitems[0m[35;1m[[0m[39;1m$key[0m[35;1m];[0m
+    [90m1642[0m[90m▕ [0m[35;1m    }[0m
+    [90m1643[0m[90m▕ [0m
+    [90m1644[0m[90m▕ [0m[35;1m    [0m[90;3m/**[0m
+    [90m1645[0m[90m▕ [0m[90;3m     * Set the item at a given offset.[0m
+
+  [33m1   [39m[39;1mC:\laragon\www\swagger-api\vendor\laravel\framework\src\Illuminate\Collections\Collection.php[39;22m:[39;1m1641[39;22m
+  [37m    Illuminate\Foundation\Bootstrap\HandleExceptions::handleError("Undefined offset: 0", "C:\laragon\www\swagger-api\vendor\laravel\framework\src\Illuminate\Collections\Collection.php", [])[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\swagger-api\app\Http\Controllers\SwaggerAPIController.php[39;22m:[39;1m16[39;22m
+  [37m    Illuminate\Support\Collection::offsetGet()[39m
+
+  [41;1m ErrorException [49;22m
+
+[39;1m  Undefined offset: 0[39;22m
+
+  at [32mC:\laragon\www\swagger-api\vendor\laravel\framework\src\Illuminate\Collections\Collection.php[39m:[32m1641[39m
+    [90m1637[0m[90m▕ [0m[90;3m     */[0m
+    [90m1638[0m[90m▕ [0m[90;3m    #[\ReturnTypeWillChange][0m
+    [90m1639[0m[90m▕ [0m[90;3m    [0m[35;1mpublic function [0m[39;1moffsetGet[0m[35;1m([0m[39;1m$key[0m[35;1m)[0m
+    [90m1640[0m[90m▕ [0m[35;1m    {[0m
+[31;1m  ➜ [0m[3;1m1641[0m[90m▕ [0m[35;1m        return [0m[39;1m$this[0m[35;1m->[0m[39;1mitems[0m[35;1m[[0m[39;1m$key[0m[35;1m];[0m
+    [90m1642[0m[90m▕ [0m[35;1m    }[0m
+    [90m1643[0m[90m▕ [0m
+    [90m1644[0m[90m▕ [0m[35;1m    [0m[90;3m/**[0m
+    [90m1645[0m[90m▕ [0m[90;3m     * Set the item at a given offset.[0m
+
+  [33m1   [39m[39;1mC:\laragon\www\swagger-api\vendor\laravel\framework\src\Illuminate\Collections\Collection.php[39;22m:[39;1m1641[39;22m
+  [37m    Illuminate\Foundation\Bootstrap\HandleExceptions::handleError("Undefined offset: 0", "C:\laragon\www\swagger-api\vendor\laravel\framework\src\Illuminate\Collections\Collection.php", [])[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\swagger-api\app\Http\Controllers\SwaggerAPIController.php[39;22m:[39;1m16[39;22m
+  [37m    Illuminate\Support\Collection::offsetGet()[39m
+
+  [41;1m ErrorException [49;22m
+
+[39;1m  Undefined offset: 0[39;22m
+
+  at [32mC:\laragon\www\swagger-api\vendor\laravel\framework\src\Illuminate\Collections\Collection.php[39m:[32m1641[39m
+    [90m1637[0m[90m▕ [0m[90;3m     */[0m
+    [90m1638[0m[90m▕ [0m[90;3m    #[\ReturnTypeWillChange][0m
+    [90m1639[0m[90m▕ [0m[90;3m    [0m[35;1mpublic function [0m[39;1moffsetGet[0m[35;1m([0m[39;1m$key[0m[35;1m)[0m
+    [90m1640[0m[90m▕ [0m[35;1m    {[0m
+[31;1m  ➜ [0m[3;1m1641[0m[90m▕ [0m[35;1m        return [0m[39;1m$this[0m[35;1m->[0m[39;1mitems[0m[35;1m[[0m[39;1m$key[0m[35;1m];[0m
+    [90m1642[0m[90m▕ [0m[35;1m    }[0m
+    [90m1643[0m[90m▕ [0m
+    [90m1644[0m[90m▕ [0m[35;1m    [0m[90;3m/**[0m
+    [90m1645[0m[90m▕ [0m[90;3m     * Set the item at a given offset.[0m
+
+  [33m1   [39m[39;1mC:\laragon\www\swagger-api\vendor\laravel\framework\src\Illuminate\Collections\Collection.php[39;22m:[39;1m1641[39;22m
+  [37m    Illuminate\Foundation\Bootstrap\HandleExceptions::handleError("Undefined offset: 0", "C:\laragon\www\swagger-api\vendor\laravel\framework\src\Illuminate\Collections\Collection.php", [])[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\swagger-api\app\Http\Controllers\SwaggerAPIController.php[39;22m:[39;1m16[39;22m
+  [37m    Illuminate\Support\Collection::offsetGet()[39m
+
+  [41;1m ErrorException [49;22m
+
+[39;1m  Undefined offset: 0[39;22m
+
+  at [32mC:\laragon\www\swagger-api\vendor\laravel\framework\src\Illuminate\Collections\Collection.php[39m:[32m1641[39m
+    [90m1637[0m[90m▕ [0m[90;3m     */[0m
+    [90m1638[0m[90m▕ [0m[90;3m    #[\ReturnTypeWillChange][0m
+    [90m1639[0m[90m▕ [0m[90;3m    [0m[35;1mpublic function [0m[39;1moffsetGet[0m[35;1m([0m[39;1m$key[0m[35;1m)[0m
+    [90m1640[0m[90m▕ [0m[35;1m    {[0m
+[31;1m  ➜ [0m[3;1m1641[0m[90m▕ [0m[35;1m        return [0m[39;1m$this[0m[35;1m->[0m[39;1mitems[0m[35;1m[[0m[39;1m$key[0m[35;1m];[0m
+    [90m1642[0m[90m▕ [0m[35;1m    }[0m
+    [90m1643[0m[90m▕ [0m
+    [90m1644[0m[90m▕ [0m[35;1m    [0m[90;3m/**[0m
+    [90m1645[0m[90m▕ [0m[90;3m     * Set the item at a given offset.[0m
+
+  [33m1   [39m[39;1mC:\laragon\www\swagger-api\vendor\laravel\framework\src\Illuminate\Collections\Collection.php[39;22m:[39;1m1641[39;22m
+  [37m    Illuminate\Foundation\Bootstrap\HandleExceptions::handleError("Undefined offset: 0", "C:\laragon\www\swagger-api\vendor\laravel\framework\src\Illuminate\Collections\Collection.php", [])[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\swagger-api\app\Http\Controllers\SwaggerAPIController.php[39;22m:[39;1m16[39;22m
+  [37m    Illuminate\Support\Collection::offsetGet()[39m
+
+  [41;1m ErrorException [49;22m
+
+[39;1m  Undefined offset: 0[39;22m
+
+  at [32mC:\laragon\www\swagger-api\vendor\laravel\framework\src\Illuminate\Collections\Collection.php[39m:[32m1641[39m
+    [90m1637[0m[90m▕ [0m[90;3m     */[0m
+    [90m1638[0m[90m▕ [0m[90;3m    #[\ReturnTypeWillChange][0m
+    [90m1639[0m[90m▕ [0m[90;3m    [0m[35;1mpublic function [0m[39;1moffsetGet[0m[35;1m([0m[39;1m$key[0m[35;1m)[0m
+    [90m1640[0m[90m▕ [0m[35;1m    {[0m
+[31;1m  ➜ [0m[3;1m1641[0m[90m▕ [0m[35;1m        return [0m[39;1m$this[0m[35;1m->[0m[39;1mitems[0m[35;1m[[0m[39;1m$key[0m[35;1m];[0m
+    [90m1642[0m[90m▕ [0m[35;1m    }[0m
+    [90m1643[0m[90m▕ [0m
+    [90m1644[0m[90m▕ [0m[35;1m    [0m[90;3m/**[0m
+    [90m1645[0m[90m▕ [0m[90;3m     * Set the item at a given offset.[0m
+
+  [33m1   [39m[39;1mC:\laragon\www\swagger-api\vendor\laravel\framework\src\Illuminate\Collections\Collection.php[39;22m:[39;1m1641[39;22m
+  [37m    Illuminate\Foundation\Bootstrap\HandleExceptions::handleError("Undefined offset: 0", "C:\laragon\www\swagger-api\vendor\laravel\framework\src\Illuminate\Collections\Collection.php", [])[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\swagger-api\app\Http\Controllers\SwaggerAPIController.php[39;22m:[39;1m16[39;22m
+  [37m    Illuminate\Support\Collection::offsetGet()[39m
+primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. primeiro teste do agendador basico. 
