@@ -1,7 +1,6 @@
-#  Spacie Article News API
+#  Space Flight News API
 
 <img src="https://pbs.twimg.com/media/E2Obwn8WUAAutnQ?format=jpg&name=4096x4096" alt="My cool logo"/>
-
 
 <br>
 
@@ -10,7 +9,6 @@
 <p>No intuito de aprendizado e teste do meu conhecimento em Laravel e testes unitários, eu desenvolvi uma API Rest 
 que utiliza dados do projeto Space Flight News, uma API pública com informações relacionadas
 a voos espaciais, permitindo assim a conexão de outras aplicações.</p>
-<br>
 
 ## Instruções
 <br>
@@ -39,15 +37,15 @@ php artisan consume:space-flight
 ```
 [GET]/: Retornar um Status: 200 e uma Mensagem "Space Flight News"
 
-[GET]/articles/: Listar todos os artigos da base de dados, utilizar o sistema de paginação para não sobrecarregar a REQUEST
+[GET]api/articles/: Listar todos os artigos da base de dados, utilizar o sistema de paginação para não sobrecarregar a REQUEST
 
-[GET]/articles/{id}: Obter a informação somente de um artigo
+[GET]api/articles/{id}: Obter a informação somente de um artigo
 
-[POST]/articles/: Adicionar um novo artigo
+[POST]api/articles/: Adicionar um novo artigo
 
-[PUT]/articles/{id}: Atualizar um artigo baseado no id
+[PUT]api/articles/{id}: Atualizar um artigo baseado no id
 
-[DELETE]/articles/{id}: Remover um artigo baseado no id
+[DELETE]api/articles/{id}: Remover um artigo baseado no id
 ```
 <br>
 
@@ -56,7 +54,9 @@ php artisan consume:space-flight
 PHP 7.4+<br>
 Composer<br>
 Laravel 8<br>
+PHPUNIT<br>
+PestPHP<br>
 MySQL
 
-<br>
+<br><br>
 Made with :blue_heart:  by Thiago Melo :wave: [see my LinkedIn](https://www.linkedin.com/in/thiago-melo-10/)
