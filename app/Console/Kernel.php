@@ -20,7 +20,7 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule)
     {
-       $schedule->command('consume:swagger')
+       $schedule->command('consume:space-flight')
                 ->dailyAt('09:00')
                 ->appendOutputTo('scheduler.log');
     }

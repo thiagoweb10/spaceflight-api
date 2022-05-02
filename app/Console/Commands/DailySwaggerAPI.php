@@ -12,14 +12,14 @@ class DailySwaggerAPI extends Command
      *
      * @var string
      */
-    protected $signature = 'consume:swagger';
+    protected $signature = 'consume:space-flight';
 
     /**
      * The console command description.
      *
      * @var string
      */
-    protected $description = 'Artisan command to consume in Swagger API.';
+    protected $description = 'Artisan command to consume in Space Flight News API.';
 
     /**
      * Create a new command instance.
@@ -41,6 +41,6 @@ class DailySwaggerAPI extends Command
         $oSwaggerAPI = new SwaggerAPIController();
         $oSwaggerAPI->getConsumeAPI();
         
-        echo 'primeiro teste do agendador basico. ';
+        echo 'command executed successfully!';
     }
 }
